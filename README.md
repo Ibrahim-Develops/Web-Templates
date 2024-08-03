@@ -1,6 +1,6 @@
 <h1 align="center">All Projects</h1>
 ---
 
-<h1 align="center">Star Web Template</h1>4
+<h2 align="center">Star Web Template</h2>
 
-<img src="./star.png" alt="book keeper" width="600" height="600">
+<img src="./star.png" alt="book keeper" width="100%" height="600">
