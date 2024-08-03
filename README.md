@@ -3,4 +3,4 @@
 
 <h1 align="center">Star Web Template</h1>4
 
-<img src="./star.png" alt="book keeper" width="600" height="400">
+<img src="./star.png" alt="book keeper" width="600" height="600">
