@@ -1,6 +1,6 @@
 <h1 align="center">All Projects</h1>
-&nbsp;
-&nbsp;
+<!-- &nbsp;
+&nbsp; -->
 
 <h2 align="center">Star Web Template</h2>
 
