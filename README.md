@@ -10,4 +10,4 @@
 
 <h2 align="center">Amazon Clone</h2>
 
-<img src="" alt="" width="100%" height="500">
+<img src="https://github.com/Ibrahim-Develops/html-css-projects/blob/main/Amazon%20Clone/Amazon.png" alt="" width="100%" height="500">
