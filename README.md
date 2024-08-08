@@ -16,4 +16,4 @@
 
 <h2 align="center">Facebook Signup Page</h2>
 
-<img src="https://github.com/Ibrahim-Develops/html-css-projects/blob/main/Facebook%20Signup%20Page/Image.png" alt="" width="100%" height="550">
+<img src="https://github.com/Ibrahim-Develops/html-css-projects/blob/main/Facebook%20Signup%20Page/Image.png" alt="" width="100%" height="500">
