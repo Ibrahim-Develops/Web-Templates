@@ -2,9 +2,10 @@
 <br>
 <br>
 
-<h2 align="center">Star Web Template</h2>
+<h2 align="center">Microsoft Clone</h2>
 
-<img src="./Complete Star Template/Star.png" alt="" width="100%" height="500">
+<img src="https://github.com/Ibrahim-Develops/html-css-projects/blob/main/Responsive%20Microsoft%20Clone/image.png" alt="" width="100%" height="750">
+
 <br>
 <br>
 
@@ -14,6 +15,15 @@
 <br>
 <br>
 
+<h2 align="center">Star Web Template</h2>
+
+<img src="./Complete Star Template/Star.png" alt="" width="100%" height="500">
+<br>
+<br>
+
 <h2 align="center">Facebook Signup Page</h2>
 
 <img src="https://github.com/Ibrahim-Develops/html-css-projects/blob/main/Facebook%20Signup%20Page/Image.png" alt="" width="100%" height="500">
+<br>
+<br>
+
