@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Microsoft</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .chavron{
+        font-size: 11px;
+    }
+
+    .office-img{
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        height: 60px;
+        position: absolute;
+        left: 40%;
+        margin-top: -35px;
+    }
+    
+    .shadow{
+        box-shadow: 0 1px 5px gray;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.133) 0px 1.6px 3.6px 0px, rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px 0px;
+    }
+
+    @media (min-width: 640px) {
+        .office-img{
+            height: 100px;
+            padding-top: 15px
+        }
+     }
+     @media (min-width: 768px) {
+        .office-img{
+            height: 100px;
+            padding-top: 15px
+        }
+     }
+     @media (min-width: 1024px) {
+        .office-img{
+            height: 120px;
+            margin-top: -40px;
+            padding-top: 15px
+        }
+     }
+     @media (min-width: 1440px) {
+        .icon-1{
+            font-size: 25px;
+        }
+        .microsoft-img{
+            width: 150px;
+        }
+        .icon-2{
+            font-size: 25px;
+        }
+        .account{
+            font-size: 20px;
+        }
+        .chavron{
+            font-size: 15px;
+        }
+        #hero-1{
+            font-size: 50px;
+        }
+        #hero-2{
+            font-size: 20px;
+        }
+        #hero-3{
+            font-size: 20px;
+        }
+        #button-1{
+            font-size: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .office{
+            margin-top: 0px;
+        }
+        .office-img{
+            height: 140px;
+        }
+        #best{
+            margin-top: 6rem;
+            margin-bottom: 2rem;
+        }
+        #second-hd{
+            font-size: 35px;
+        }
+        #second-p{
+            font-size: 20px;
+        }
+        #normal-hd{
+            font-size: 25px;
+        }
+        #normal-p{
+            font-size: 18px;
+        }
+        #imago{
+            height: 25rem;
+        }
+        #daku-h{
+            font-size: 35px;
+        }
+        #daku-p{
+            font-size: 18px;
+        }
+        #sub-h{
+            font-size: 35px;
+        }
+        #sub-p{
+            font-size: 20px;
+        }
+        #micro-pic{
+            width: 10%;
+        }
+        #micro-p{
+            font-size: 17px;
+        }
+        #u-main{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        #shadow{
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        #shadow-box{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        #apna{
+            padding: 10px;
+            width: 100%;
+        }
+        #foot{
+            margin-left: 52rem;
+        }
+      }
+</style>
+<body>
+    <!-- PART-1 -->
+    <div class="bavbar flex justify-between p-3 border-b items-center">
+        <div class="icon-1 flex gap-5"><span><i class="fa-solid fa-bars"></i></span><span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+        <div><img class="microsoft-img " width="110px" height="20%" src="./assets/microsoft.png" alt=""></div>
+        <div class="icon-2"><i class="fa-solid fa-user-plus"></i></div>
+    </div>
+
+    <div class="account px-3 py-1 font-medium border-b">Account <span class="chavron"><i class="fa-solid fa-chevron-down"></i></span>
+    </div>
+
+    <!-- PART-2 -->
+    <div class="hero p-0">
+        <h1 id="hero-1" class="text-center text-3xl px-1 pt-16 pb-5 font-semibold md:text-4xl">It's all here with Microsoft account</h1>
+        <p id="hero-2" class="text-center text-sm md:text-base">Sign in to manage your account.</p>
+        <p id="hero-3" class="text-center text-sm md:text-base">Your MIcrosoft account connects all your Microsoft apps and services.</p>
+    </div>
+
+    <div class="button flex justify-center items-center p-6">
+    <button type="button" id="button-1" class="text-white bg-blue-600 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-3 py-1.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign In</button>
+    </div>
+
+    <!-- PART-3 -->
+    <div class="office "> 
+        <img class="" src="./assets/office.webp" alt="">
+        <div class="office-img md:mt-[-65px]">
+        <img class="img-img p-3 w-[90%] sm:w-[70%] md:w-[65%]"  src="./assets/favicon.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- PART-4 -->
+    <div id="best" class="best">
+        <h1 id="second-hd" class="text-center text-2xl px-1 pt-16 pb-5 font-semibold sm:mt-5 sm:text-3xl md:text-3xl md:mt-14">The best of Microsoft</h1>
+        <p id="second-p" class="text-center text-sm md:text-base">You get more for free when you sign in with your Microsoft account.</p>
+    </div>
+    <div class="best-box flex flex-wrap md:px-10 lg:px-32">
+    <div class="box p-8 h-8 w-[100%] h-[100%] md:w-[50%] h-[100%] " >
+        <span><img id="imago" class="rounded-md w-[100%] h-[100%] sm:h-[25rem] md:h-[15rem]"  src="./assets/box-1.png" alt=""></span>
+        <h1 id="normal-hd" class="text-xl pt-3 pb-3 font-semibold">Microsoft 365 apps</h1>
+        <p id="normal-p" class="text-sm">Get access to free online versions of Outlook, Word, Excel, and PowerPoint.</p>
+    </div>
+
+    <div class="box p-8 h-8 w-[100%] h-[100%] md:w-[50%] h-[100%] " >
+        <span><img id="imago" class="rounded-md w-[100%] h-[100%] sm:h-[25rem] md:h-[15rem] " src="./assets/box-2.png" alt=""></span>
+        <h1 id="normal-hd" class="text-xl pt-3 pb-3 font-semibold">5 GB of cloud storage</h1>
+        <p id="normal-p" class="text-sm">Save your files and photos and access them from any device, anywhere.</p>
+    </div>
+
+    <div class="box p-8 h-8 w-[100%] h-[100%] h-[100%] md:w-[50%] h-[100%] " >
+        <span><img id="imago" class="rounded-md w-[100%] h-[100%] sm:h-[25rem] md:h-[15rem]" src="./assets/box-3.png" alt=""></span>
+        <h1 id="normal-hd" class="text-xl pt-3 pb-3 font-semibold">Microsoft Rewards</h1>
+        <p id="normal-p" class="text-sm">Earn points that can be redeemed for gift cards, charitable donations and sweepstakes entries.</p>
+    </div>
+
+    <div class="box p-8 h-8 w-[100%] h-[100%] md:w-[50%] h-[100%] " >
+        <span><img id="imago" class="rounded-md w-[100%] h-[100%] sm:h-[25rem] md:h-[15rem] " src="./assets/box-4.png" alt=""></span>
+        <h1 id="normal-hd" class="text-xl pt-3 pb-3 font-semibold">Xbox network</h1>
+        <p id="normal-p" class="text-sm">Your account gives you access to the Xbox network and community.</p>
+    </div>
+</div>
+
+
+    <!-- PART-5 -->
+    <div class="unique-main bg-gray-50 flex flex-wrap lg:hidden">
+    <div class="unique md:px-32">
+        <h1 class="text-center text-2xl pt-3 pb-3 font-semibold md:text-3xl">Uniquely yours</h1>
+        <p class="text-center px-6 text-sm md:text-base">Stay safer with customisable security and privacy settings and get personalised recommendations from your account check-up.</p>
+    </div>
+    <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem]" >
+        <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-1.png" alt=""></span>
+        <h1 class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Security your way</h1>
+        <p class="text-sm md:text-base">Choose security and privacy settings that work best for you and rest easy with automatic alerts for unusual or suspicious account activity.</p>
+    </div>
+    <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem]" >
+        <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-2.png" alt=""></span>
+        <h1 class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Break free from passwords</h1>
+        <p class="text-sm md:text-base">Make your account even more secure with optional passwordless sign-in.</p>
+    </div><div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem]" >
+        <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-3.png" alt=""></span>
+        <h1 class="text-xl pt-3 pb-3 font-semibold md:text-2xl">One place to manage it all</h1>
+        <p class="text-sm md:text-base">Manage your account from a single dashboard, including payment information, purchases, subscriptions, and more.</p>
+    </div>
+    </div>
+
+
+    <!-- Bd ma shuru honay wala -->
+    <div id="u-main" class="unique-main bg-gray-50 pt-3 flex flex-wrap hidden lg:block">
+        <div class="unique md:px-32">
+            <h1 id="daku-h" class="text-center text-2xl pt-3 pb-3 font-semibold md:text-3xl">Uniquely yours</h1>
+            <p id="daku-p" class="text-center px-6 text-sm md:text-base">Stay safer with customisable security and privacy settings and get personalised recommendations from your account check-up.</p>
+        </div>
+        <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem] lg:w-[100%] lg:h-[100%] lg:flex lg:justify-between lg:items-center lg:gap-20" >
+            <div class="lg:w-[50%]">
+            <h1 id="sub-h" class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Security your way</h1>
+            <p id="sub-p" class="text-sm md:text-base">Choose security and privacy settings that work best for you and rest easy with automatic alerts for unusual or suspicious account activity.</p>
+            </div>
+            <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-1.png" alt=""></span>      
+        </div>
+
+        
+        <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem] lg:w-[100%] lg:h-[100%] lg:flex lg:justify-between lg:items-center lg:gap-20" >
+            <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-2.png" alt=""></span>
+            <div class="lg:w-[50%]">
+            <h1 id="sub-h" class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Break free from passwords</h1>
+            <p id="sub-p" class="text-sm md:text-base">Make your account even more secure with optional passwordless sign-in.</p>
+            </div>
+        </div>
+
+
+        <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem] lg:w-[100%] lg:h-[100%] lg:flex lg:justify-between lg:items-center lg:gap-20" >
+            <div class="lg:w-[50%]">
+            <h1 id="sub-h" class="text-xl pt-3 pb-3 font-semibold md:text-2xl">One place to manage it all</h1>
+            <p id="sub-p" class="text-sm md:text-base">Manage your account from a single dashboard, including payment information, purchases, subscriptions, and more.</p>
+            </div>
+            <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-3.png" alt=""></span>      
+        </div>
+        </div>
+
+
+
+
+
+    <!-- PART-6 -->
+    <div class="unique-main bg-gray-50 flex flex-wrap lg:hidden">
+        <div class="unique md:px-32">
+            <h1 class="text-center text-2xl pt-3 pb-3 font-semibold md:text-3xl">Simplify your day</h1>
+            <p class="text-center px-6 text-sm md:text-base">Access all your Microsoft apps, services, and games with one account.
+                Whatever you’re doing, wherever you are, just go.</p>
+        </div>
+        <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem]" >
+            <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-4.png" alt=""></span>
+            <h1 class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Sign in and go</h1>
+            <p class="text-sm md:text-base">Your account profile and preferences sync across all your devices. Wherever you are, it’s all here.</p>
+        </div>
+        <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem]" >
+            <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-5.png" alt=""></span>
+            <h1 class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Pick up where you left off</h1>
+            <p class="text-sm md:text-base">Your data is automatically synced to the cloud, so contacts, calendar, and files are always backed up, no matter what device you’re on.</p>
+        </div><div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem]" >
+            <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-6.png" alt=""></span>
+            <h1 class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Keep it in the family</h1>
+            <p class="text-sm md:text-base">Easily create a family group and set parental controls like screen time limits and app filters for free with Microsoft Family Safety.</p>
+        </div>
+        </div>
+    
+    
+         <!-- Bd ma shuru honay wala -->
+        <div id="u-main" class="unique-main mt-10 flex flex-wrap sm:hidden md:hidden lg:block">
+            <div class="unique md:px-32">
+                <h1 id="daku-h" id class="text-center text-2xl pt-3 pb-3 font-semibold md:text-3xl">Simplify your day</h1>
+                <p id="daku-p" class="text-center px-6 text-sm md:text-base">Access all your Microsoft apps, services, and games with one account.
+                    Whatever you’re doing, wherever you are, just go.</p>
+            </div>
+            <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem] lg:w-[100%] lg:h-[100%] lg:flex lg:justify-between lg:items-center lg:gap-20" >
+                <div class="lg:w-[50%]">
+                <h1 id="sub-h" class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Sign in and go</h1>
+                <p id="sub-p" class="text-sm md:text-base">Your account profile and preferences sync across all your devices. Wherever you are, it’s all here.</p>
+                </div>
+                <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-4.png" alt=""></span>      
+            </div>
+    
+            
+            <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem] lg:w-[100%] lg:h-[100%] lg:flex lg:justify-between lg:items-center lg:gap-20" >
+                <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-5.png" alt=""></span>
+                <div class="lg:w-[50%]">
+                <h1 id="sub-h" class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Pick up where you left off</h1>
+                <p id="sub-p" class="text-sm md:text-base">Your data is automatically synced to the cloud, so contacts, calendar, and files are always backed up, no matter what device you’re on.</p>
+                </div>
+            </div>
+    
+    
+            <div class="box p-8 h-8 w-[100%] h-[100%] md:px-[5.5rem] lg:w-[100%] lg:h-[100%] lg:flex lg:justify-between lg:items-center lg:gap-20" >
+                <div class="lg:w-[50%]">
+                <h1 id="sub-h" class="text-xl pt-3 pb-3 font-semibold md:text-2xl">Keep it in the family</h1>
+                <p id="sub-p" class="text-sm md:text-base">Easily create a family group and set parental controls like screen time limits and app filters for free with Microsoft Family Safety.</p>
+                </div>
+                <span><img class="rounded-md w-[100%] h-[100%] sm:h-[25rem]" src="./assets/u-6.png" alt=""></span>      
+            </div>
+            </div>
+
+    <!-- PART-7 -->
+    <div class="account">
+        <span class="flex justify-center mt-16 py-5"><img id="micro-pic" class="w-[20%] md:w-[15%]"   src="./assets/favicon.png" alt=""></span>
+        <p id="micro-p" class="text-center px-6 text-sm md:text-base">Your Microsoft account connects all your Microsoft apps and services.</p>
+    </div>
+    <div class="button flex justify-center items-center p-6 ">
+        <button id="button-1" type="button" class="text-white bg-blue-600 hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-6 py-1.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign In</button>
+        <button id="button-1" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-md text-sm px-6 py-1.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Create an account</button>
+        </div>
+
+        <!-- PART-8 -->
+         <div id="shadow" class="questions-main bg-gray-50 pb-1">
+        <div class="questions">
+            <h1 id="daku-h" class="text-center px-5 mt-10 text-2xl pt-3 pb-3 font-semibold md:text-3xl">Question? We have answers</h1>
+        </div>
+        <div id="shadow-box" class="shadow-box mx-8 my-2 md:px-28">
+        <div class="shadow mt-6 pb-5 bg-white">
+            <h1 class="text-xl pt-3 px-6 pb-3 font-semibold md:text-2xl">A Microsoft account does not need a Microsoft email</h1>
+            <p class="px-6 text-sm mb-2 md:text-base" >The email address used to sign into your Microsoft account can be from Outlook.com, Hotmail.com, Gmail, Yahoo, or other providers.</p>
+            <a class="px-6 text-sm text-blue-500 hover:underline md:text-base" href="">Create one now</a>
+        </div>
+        <div class="shadow mt-6 pb-5 bg-white">
+            <h1 class="text-xl pt-3 px-6 pb-3 font-semibold md:text-2xl">You may already have an account</h1>
+            <p class="px-6 text-sm mb-2 md:text-base" >You can use an email address, Skype ID, or phone number to sign into your Windows PC, Xbox, or Microsoft services like Microsoft 365.</p>
+            <a class="px-6 text-[0.8rem] text-blue-500 hover:underline md:text-base" href="">Check if I have a Microsoft account</a>
+        </div>
+        <div class="shadow mt-6 pb-5 bg-white">
+            <h1 class="text-xl pt-3 px-6 pb-3 font-semibold md:text-2xl">Get help with your account</h1>
+            <p class="px-6 text-sm mb-2 md:text-base" >Forgot your username or password? Visit Microsoft Support for account help and guidance.</p>
+            <a class="px-6 text-[0.8rem] text-blue-500 hover:underline md:text-base" href="">Get help</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="footer pt-6 bg-gray-100 pb-6">
+            <div class="earth px-8 text-xs text-gray-500 flex items-center gap-2 mb-2"><i class="fa-solid fa-earth-americas" ></i><span class="text-black">English (United Kingdom)</span></div>
+            <div class="feather px-8 text-xs text-blue-600 flex items-center gap-2 mb-2"><i class="fa-solid fa-feather-pointed"></i><span class="text-black">Your Privacy Choices</span></div>
+            <div class="suppor px-8 text-xs">Customer Health Privacy</div>
+            <div id="foot" class="copy px-8 md:flex gap-4 md:ms-56 lg:ms-[25rem]">
+                <span class="text-xs">Privacy & cookies</span>
+                <span class="text-xs">Terms of use</span>
+                <span class="text-xs">Contact us</span>
+                <span class="text-xs">Feedback</span>
+                <span class="text-xs">© Microsoft 2024</span>
+            </div>
+        </div>
+</body>
+</html>
